@@ -1,0 +1,94 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:rgb(56, 6, 104);
+    background-color: #E0C4DF;
+    text-align: left;
+    padding: 50px;
+    
+}
+
+input {
+    border-style: solid;
+    border: solid purple;
+    width: 100px;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    text-align: center;
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    text-align: center;
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type="text"]{
+    width: 50%;
+    padding: 8px;
+    border: 1px solid purple;
+    border-radius: 6px;
+    resize: vertical;
+}
+
+input[type="date"]{
+    width: 25%;
+    padding: 8px;
+    border: 1px solid purple;
+    border-radius: 6px;
+    resize: vertical;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 5px 12px 5px 12px;
+}
+
+.caixa{
+    border-radius: 6px;
+    background-color: #c8a2c8;
+    padding: 10px;
+
+}
+
+.classe1 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .classe2 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .classe3::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .classe4:[type="text"]{
+    width: 50%;
+    padding: 8px;
+    border: 1px solid purple;
+    border-radius: 6px;
+    resize: vertical;
+}
+ 
