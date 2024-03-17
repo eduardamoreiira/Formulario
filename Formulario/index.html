@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Meu contato</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+
+</head>
+
+<body>
+
+    <h1 style="text-align: center; color: rgb(56, 6, 104);">Formulário para Contato:</h1>
+    
+    <div class="caixa">
+
+    <form action="semana4_post.php" method="post" onsubmit="return ValidaCampos()" target="_blank">
+        <fieldset>
+            <legend>Dados Pessoais:</legend>
+        <div class="classe3">
+            <div class="classe1">
+        <label for="fname">Nome completo:</label>
+            </div>    
+            <div class="classe2">
+        <input type="text" id="fname" name="nome" placeholder="Digite aqui seu nome completo"></br>
+            </div>
+        </div>   
+        <div class="classe3">
+            <div class="classe1">
+        <label for="email">E-mail:</label>
+             </div>
+             <div class="classe2">        
+        <input type="text" id="email" name="email" placeholder="Digite aqui seu e-mail"></br>
+             </div>
+         </div>    
+         <div class="classe3">
+            <div class="classe1">       
+        <label for="cpf">CPF:</label>
+             </div>
+             <div class="classe2">   
+        <input type="text" id="cpf" name="cpf" placeholder="Digite aqui seu CPF" maxlength="11"></br>
+             </div>  
+         </div>
+         <div class="classe3">
+            <div class="classe1">    
+        <label type="dtnasc"> Data de nascimento:</label>
+             </div>
+             <div class="classe2">   
+        <input type="date" id="dtnasc" name="datadenascimento"></br>
+              </div>
+        </div>    
+        <div class="classe3">
+            <div class="classe1">    
+        <label for="sexo"> Sexo:</label>
+             </div>
+             <div class="classe2">   
+        <input type="radio" id="feminino" name="sexo" value="Feminino"> Feminino
+
+        <input type="radio" id="masculino" name="sexo" value="Masculino"> Masculino</br>
+             </div>
+         </div>
+         <div class="classe3">
+            <div class="classe1">       
+        <label for="tel">Telefone:</label>
+             </div>
+             <div class="classe2">   
+        <input type="text" id="tel" name="telefone" placeholder="Digite aqui seu telefone" maxlength="11"></br>
+            </div>
+         </div> 
+
+         <div class="botaoreset">
+
+            <input type="submit" value="Enviar"><emsp>   </emsp>
+            <input type="reset" value="Cancelar">
+        </div>
+
+        </fieldset>
+    </div>
+    </form>       
+</body>
+</html>
