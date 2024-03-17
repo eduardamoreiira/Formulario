@@ -1,2 +1,2 @@
 # Formulario
- Formulário, utilizando html, css, JavaScript e Bootstrap
+ Formulário, utilizando html, css, JavaScript; 
